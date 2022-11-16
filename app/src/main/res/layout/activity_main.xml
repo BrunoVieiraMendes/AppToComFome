@@ -9,9 +9,9 @@
 
     <ImageButton
         android:id="@+id/imageButtonEntrar"
-        android:layout_width="204dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="244dp"
+        android:layout_width="242dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="216dp"
         android:onClick="abrirSelecaoIngredientes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
