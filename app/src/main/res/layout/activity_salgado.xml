@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela_salgado"
+    tools:context=".Salgado_Activity">
+
+    <ImageButton
+        android:id="@+id/botao_voltar"
+        android:layout_width="116dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="abrirMenuDoceSalgado"
+        app:layout_constraintBottom_toTopOf="@+id/botao_caldodeabobora"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/botao_voltar" />
+
+    <ImageButton
+        android:id="@+id/botao_caldodeabobora"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="abrirCaldodeAbobora"
+        app:layout_constraintBottom_toTopOf="@+id/botao_sanduiche"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_voltar"
+        app:srcCompat="@drawable/botao_caldodeabobora" />
+
+    <ImageButton
+        android:id="@+id/botao_sanduiche"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="13dp"
+        android:onClick="abrirSanduiche"
+        app:layout_constraintBottom_toTopOf="@+id/botao_salada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_caldodeabobora"
+        app:srcCompat="@drawable/botao_sanduiche" />
+
+    <ImageButton
+        android:id="@+id/botao_salada"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="abrirSalada"
+        app:layout_constraintBottom_toTopOf="@+id/botao_coxinha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_sanduiche"
+        app:srcCompat="@drawable/botao_salada" />
+
+    <ImageButton
+        android:id="@+id/botao_coxinha"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="14dp"
+        android:onClick="abrirCoxinha"
+        app:layout_constraintBottom_toTopOf="@+id/botao_bobodecamarao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_salada"
+        app:srcCompat="@drawable/botao_coxinha" />
+
+    <ImageButton
+        android:id="@+id/botao_bobodecamarao"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="44dp"
+        android:onClick="abrirBobodeCamarao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_coxinha"
+        app:srcCompat="@drawable/botao_bobodecamarao" />
+</androidx.constraintlayout.widget.ConstraintLayout>

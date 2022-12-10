@@ -1,34 +1,17 @@
 <resources>
-    <string name="app_name">AppToComFome</string>
-    <string-array name="slIngredientes1">
-        <item>---------</item>
-        <item>Ovo</item>
-        <item>Leite</item>
-        <item>Farinha</item>
-    </string-array>
-    <string-array name="slIngredientes2">
-        <item>---------</item>
-        <item>Ovo</item>
-        <item>Leite</item>
-        <item>Farinha</item>
-    </string-array>
-    <string-array name="slIngredientes3">
-        <item>---------</item>
-        <item>Ovo</item>
-        <item>Leite</item>
-        <item>Farinha</item>
-    </string-array>
-    <string-array name="slIngredientes4">
-        <item>---------</item>
-        <item>Ovo</item>
-        <item>Leite</item>
-        <item>Farinha</item>
-    </string-array>
-    <string-array name="slIngredientes5">
-        <item>---------</item>
-        <item>Ovo</item>
-        <item>Leite</item>
-        <item>Farinha</item>
-    </string-array>
-    <string name="button_continue">Continue</string>
+    <string name="app_name">App_fmu</string>
+    <string name="botao_entrar">Entrar</string>
+    <string name="botao_salgados">Salgados</string>
+    <string name="botao_doces">Doces</string>
+    <string name="botao_voltar">Voltar</string>
+    <string name="botao_caldodeabobora">Caldo de Abobora</string>
+    <string name="botao_sanduiche">Sanduiche</string>
+    <string name="botao_salada">Salada</string>
+    <string name="botao_coxinha">Coxinha</string>
+    <string name="botao_bobodecamarao">Bobo de Camarao</string>
+    <string name="botao_sorbetdefrutas">Sorbet de Frutas</string>
+    <string name="botao_bolodecenoura">Bolo de Cenoura</string>
+    <string name="botao_bolodemilho">Bolo de Milho</string>
+    <string name="botao_chocolatequente">Chocolate Quente</string>
+    <string name="botao_pudim">Pudim</string>
 </resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela_doce"
+    tools:context=".Doce_Activity">
+
+    <ImageButton
+        android:id="@+id/botao_sorbetdefrutas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:onClick="abrirSorbetdeFrutas"
+        app:layout_constraintBottom_toTopOf="@+id/botao_bolodecenoura"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_voltar2"
+        app:srcCompat="@drawable/botao_sorbetdefrutas" />
+
+    <ImageButton
+        android:id="@+id/botao_voltar2"
+        android:layout_width="138dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="33dp"
+        android:onClick="abrirMenuDoceSalgado"
+        app:layout_constraintBottom_toTopOf="@+id/botao_sorbetdefrutas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/botao_voltar" />
+
+    <ImageButton
+        android:id="@+id/botao_bolodecenoura"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="abrirBolodeCenoura"
+        app:layout_constraintBottom_toTopOf="@+id/botao_bolodemilho"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_sorbetdefrutas"
+        app:srcCompat="@drawable/botao_bolodecenoura" />
+
+    <ImageButton
+        android:id="@+id/botao_bolodemilho"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:onClick="abrirBolodeMilho"
+        app:layout_constraintBottom_toTopOf="@+id/botao_chocolatequente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_bolodecenoura"
+        app:srcCompat="@drawable/botao_bolodemilho" />
+
+    <ImageButton
+        android:id="@+id/botao_chocolatequente"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="abrirChocolateQuente"
+        app:layout_constraintBottom_toTopOf="@+id/botao_pudim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_bolodemilho"
+        app:srcCompat="@drawable/botao_chocolatequente" />
+
+    <ImageButton
+        android:id="@+id/botao_pudim"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="63dp"
+        android:onClick="abrirPudim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botao_chocolatequente"
+        app:srcCompat="@drawable/botao_pudim" />
+</androidx.constraintlayout.widget.ConstraintLayout>

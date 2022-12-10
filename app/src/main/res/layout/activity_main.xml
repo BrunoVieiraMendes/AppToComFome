@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login"
+    android:background="@drawable/tela_main"
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButtonEntrar"
-        android:layout_width="242dp"
-        android:layout_height="99dp"
-        android:layout_marginBottom="216dp"
-        android:onClick="abrirSelecaoIngredientes"
+        android:id="@+id/botao_entrar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="180dp"
+        android:onClick="abrirMenuDocesSalgados"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/entrar_button1" />
-
+        app:srcCompat="@drawable/botao_entrar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
